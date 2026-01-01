@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@layer utilities {
+  .shadow-light {
+    box-shadow: 4px 4px 0 0 #000;
+  }
+  .shadow-dark {
+    box-shadow: 4px 4px 0 0 #fff;
+  }
+}
+
 /* =========================
    THEME (Tailwind v4 way)
 ========================= */

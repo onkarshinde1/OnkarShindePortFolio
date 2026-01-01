@@ -14,7 +14,7 @@ const ovo = Ovo({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${outfit.variable} ${ovo.variable}`}>
+    <html lang="en" className={`${outfit.variable} ${ovo.variable} scroll-smooth`}>
       <body className={`${outfit.className} antialiased leading-5 overflow-x-hidden`}>{children}</body>
     </html>
   );
