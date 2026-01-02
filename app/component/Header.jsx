@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="w-11/12 max-w-3xl text-center mx-auto min-h-screen pt-24 flex flex-col items-center justify-center gap-4 ">
       <div>
-        <Image src={assets.profile_img} alt="" className="rounded-full w-42" />
+        <Image src={assets.profile_img} alt="" className="rounded-full w-70 sm:w-36" />
       </div>
       <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo">
         Hi! I&apos;m Onkar Shinde{" "}
