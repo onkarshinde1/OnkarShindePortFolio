@@ -31,7 +31,7 @@ const About = () => {
                 key={index}
                 className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lighthover hover:translate-y-1 duration-500 "
               >
-                <Image src={icon} alt={title} className="w-8 mb-3" />
+                <Image src={icon} alt={title} className="w-8"  />
                 <h3 className="text-lg my-4 font-semibold">{title}</h3>
                 <p className="text-sm text-gray-600">{description}</p>
               </li>
