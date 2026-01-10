@@ -14,7 +14,7 @@ const Header = () => {
       </h3>
 
       <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-ovo">
-        frontend web developer based in Nashik.
+        frontend web developer based in Pune.
       </h1>
       <p className="max-w-2xl mx-auto font-ovo">
         I am frontend developer from Nashik,Maharashtra with 1 year of
